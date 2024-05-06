@@ -1,4 +1,4 @@
-package com.libro.deitel.capitulo3.ejemplo1;
+package com.libro.deitel.capitulo3.ejercicios.ejemplo311;
 
 public class Cuenta {
 
