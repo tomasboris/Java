@@ -1,4 +1,4 @@
-package com.libro.deitel.capitulo3.ejercicios.ejemplo311;
+package com.libro.deitel.capitulo3.ejercicios.ejemplo312;
 
 import java.util.Scanner;
 

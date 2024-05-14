@@ -1,4 +1,4 @@
-package com.libro.deitel.capitulo3.ejemplo1;
+package com.libro.deitel.capitulo3.ejercicios.ejemplo312;
 
 public class Cuenta {
 
@@ -28,15 +28,19 @@ public class Cuenta {
             
         }
     }
+    //Metodo retirar saldo
+    public void retirarSaldo(double retirar){
+        if (retirar <= saldo) {
+            saldo = saldo - retirar;
+        }else{
+            System.out.println("El monto a retirar excede el saldo de la cuenta de " +nombre);
+        }
+    }
     public double getSaldo(){
         return saldo;
     }
     public void setSaldo(double saldo){
         this.saldo = saldo;
-    }
-
-    public static void mostrarCuenta(Cuenta cuentaAMostrar){
-        
     }
     
 
