@@ -5,7 +5,7 @@ public class BreakEjercicio {
         int cuenta;
         for(cuenta = 1; cuenta <= 10; cuenta++){
             if (cuenta == 5) {
-                break;
+                continue;
                 
             }
             System.out.println(cuenta);
