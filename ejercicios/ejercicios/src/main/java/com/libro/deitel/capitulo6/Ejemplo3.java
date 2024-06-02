@@ -21,6 +21,7 @@ public class Ejemplo3 {
     }
 
     public void setEdad(int edad) {
+        
         this.edad = edad;
     }
 
